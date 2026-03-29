@@ -1,0 +1,15 @@
+body {
+  /* Use ../ to go out of the current folder into assets */
+  background-image: url('../assets/img.jpeg'); 
+  
+  /* Use 'cover' to ensure the movie poster fills the screen */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps it steady while scrolling */
+  background-repeat: no-repeat;
+  
+  /* Ensure the body actually has height to show the image */
+  margin: 0;
+  min-height: 100vh;
+  width: 100%;
+}
